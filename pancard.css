@@ -1,0 +1,112 @@
+table,
+th,
+td,
+tr {
+  text-align: left;
+  border: solid 0.7px;
+  border-collapse: collapse;
+}
+.second {
+  text-align: left;
+}
+.bold{
+  font-weight: bold;
+}
+span.star,
+span.red {
+  color: red;
+}
+
+.nested-table-1,
+.nested-table-2,
+.upload-table,
+.upload-table-1 {
+  border-collapse: collapse;
+  border: none;
+}
+
+.nested-table-1 tr,
+.nested-table-1 td {
+  border: none;
+  text-align: left;
+}
+
+.nested-table-2 tr,
+.nested-table-2 td {
+  border: none;
+  text-align: left;
+  border-right: 1px;
+}
+
+.upload-table tr,
+.upload-table td {
+  border: none;
+  padding-right: 130px;
+}
+
+.nested-table-1 td {
+  padding-right: 100px;
+}
+
+.nested-table-2 td {
+  padding-right: 40px;
+}
+
+span.blue {
+  color: blue;
+}
+
+#span1 {
+  width: 700px;
+  float: left;
+  height: 100%;
+}
+#span2 {
+  width: 500px;
+  float: right;
+  height: 100%;
+}
+
+.r {
+  border-right: 1px solid black;
+  height: 100%;
+}
+
+.l {
+  border-left: 1px solid black;
+  height: 100%;
+}
+
+.nested-table-3,
+.nested-table-3 tr,
+.nested-table-3 td {
+  border: none;
+  border-collapse: collapse;
+}
+
+.year {
+  width: 40px;
+}
+
+.number {
+  width: 250px;
+}
+
+.upload-table-1 tr,
+.upload-table-1 td {
+  border: none;
+  padding-right: 200px;
+}
+
+.buttn {
+  display: block;
+  margin: 0 auto;
+}
+
+/* .tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+tr > td {
+  width: 15px;
+} */
